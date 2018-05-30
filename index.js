@@ -1,4 +1,4 @@
-beforeall (function boardMember(name, homeState, training){
+function boardMembers(name, homeState, training){
   this.name=name;
   this.homeState=homeState;
   this.training=training;
@@ -8,4 +8,4 @@ beforeall (function boardMember(name, homeState, training){
   this.releasePressStatement=function(){return "You will see great things from Scruber."}
   this.sayHi=function(){return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}`}
 
-})
+}
